@@ -1,11 +1,136 @@
 {
-"datum":{"type":"date","stereotype":"primitive","label":"datum","renderAs": {"new": {"control": "datefield"}}},
-"Bemerkung":{"type":"string","stereotype":"primitive","label":"Bemerkung","renderAs": {"new": {"control": "textarea"}}},
-"Frist":{"type":"date","stereotype":"primitive","label":"Frist","renderAs": {"new": {"control": "datefield"}}},
-"Status":{"type":"StatusT","stereotype":"enumeration","classAlias":"StatusT0","label":"Status"},
-"Kategorie":{"type":"KategorieT","stereotype":"enumeration","classAlias":"KategorieT1","label":"Kategorie"},
-"Priorität":{"type":"PrioritätT","stereotype":"enumeration","classAlias":"PrioritätT2","label":"Priorität"},
-"Anhang":{"type":"picture","stereotype":"primitive","label":"Anhang","renderAs": {"new": {"control": "fileupload"}}},
-"_TBKoordinator":{"type":"foreign","stereotype":"relation","class":"TBKoordinator","classAlias":"TBKoordinator","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"},
-"_TBMitarbeiter":{"type":"foreign","stereotype":"relation","class":"TBMitarbeiter","classAlias":"TBMitarbeiter","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+	"Titel": {
+		"type": "string",
+		"label": "Titel",
+		"stereotype": "primitive",
+		"display": "true",
+		"validation": "string",
+		"renderAs": {
+			"detail": {
+				"disabled": true,
+				"readonly": true,
+				"display": true,
+				"mode": "general",
+				"control": "text",
+				"class": "sysstring",
+				"maxlength": "50"
+			},
+			"list": {
+				"dataPriority": 2,
+				"disabled": false,
+				"readonly": true,
+				"display": true,
+				"mode": "table",
+				"control": "text",
+				"class": "sysstring",
+				"maxlength": "50"
+			},
+			"edit": {
+				"disabled": false,
+				"readonly": false,
+				"display": true,
+				"mode": "general",
+				"control": "textbox",
+				"class": "sysstring",
+				"maxlength": "50"
+			},
+			"new": {
+				"disabled": false,
+				"readonly": false,
+				"display": true,
+				"mode": "general",
+				"control": "textbox",
+				"class": "sysstring",
+				"maxlength": "50"
+			}
+		}
+	},
+	"datum": {
+		"type": "date",
+		"stereotype": "primitive",
+		"label": "datum",
+		"renderAs": {
+			"new": {
+				"control": "datefield"
+			}
+		}
+	},
+	"Bemerkung": {
+		"type": "string",
+		"stereotype": "primitive",
+		"label": "Bemerkung",
+		"renderAs": {
+			"new": {
+				"control": "textarea"
+			}
+		}
+	},
+	"Frist": {
+		"type": "date",
+		"stereotype": "primitive",
+		"label": "Frist",
+		"renderAs": {
+			"new": {
+				"control": "datefield"
+			}
+		}
+	},
+	"Status": {
+		"type": "StatusT",
+		"stereotype": "enumeration",
+		"classAlias": "StatusT0",
+		"label": "Status"
+	},
+	"Kategorie": {
+		"type": "KategorieT",
+		"stereotype": "enumeration",
+		"classAlias": "KategorieT1",
+		"label": "Kategorie"
+	},
+	"Priorität": {
+		"type": "PrioritätT",
+		"stereotype": "enumeration",
+		"classAlias": "PrioritätT2",
+		"label": "Priorität"
+	},
+	"Anhang": {
+		"type": "picture",
+		"stereotype": "primitive",
+		"label": "Anhang",
+		"renderAs": {
+			"new": {
+				"control": "fileupload"
+			}
+		}
+	},
+	"_TBKoordinator": {
+		"type": "foreign",
+		"stereotype": "relation",
+		"class": "TBKoordinator",
+		"classAlias": "TBKoordinator",
+		"renderAs": {
+			"edit": {
+				"required": "true"
+			},
+			"new": {
+				"required": "true"
+			}
+		},
+		"join": "INNER"
+	},
+	"_TBMitarbeiter": {
+		"type": "foreign",
+		"stereotype": "relation",
+		"class": "TBMitarbeiter",
+		"classAlias": "TBMitarbeiter",
+		"renderAs": {
+			"edit": {
+				"required": "true"
+			},
+			"new": {
+				"required": "true"
+			}
+		},
+		"join": "INNER"
+	}
 }

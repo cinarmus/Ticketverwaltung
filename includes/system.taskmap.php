@@ -60,4 +60,5 @@ Core::setTaskMap(array(
 'datenexport'=>'controller.datenexport.php',
 'speicherstand_edit'=>'controller.speicherstand_edit.php',
 'speicherstand_upload'=>'controller.speicherstand_upload.php',
+'ticket_neu'=>'',
 ));
