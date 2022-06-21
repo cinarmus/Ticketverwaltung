@@ -61,4 +61,5 @@ Core::setTaskMap(array(
 'speicherstand_edit'=>'controller.speicherstand_edit.php',
 'speicherstand_upload'=>'controller.speicherstand_upload.php',
 'ticket_neu'=>'',
+'ticketübersicht'=>'',
 ));

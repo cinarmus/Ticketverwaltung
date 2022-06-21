@@ -917,6 +917,377 @@
 			}
 		}
 	},
+	"Ticketübersicht": {
+		"panelElement": {
+			"group": {
+				"general": {
+					"columns": "4",
+					"heading": "Herzlich willkommen zur Ticketübersicht!",
+					"text": "Hier können Sie eine Kategorie auswählen, um sich die gewünschten Tickets anzeigen zu lassen!",
+					"image": "Website-Frontpage-Header-02.jpg",
+					"display": "true",
+					"label": "Ticketübersicht",
+					"link": "ticketübersicht",
+					"linkFunction": "dashboard",
+					"icon": "bullets",
+					"renderAs": "miniButton"
+				},
+				"G0": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				},
+				"G1": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				},
+				"G2": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				},
+				"G3": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				},
+				"G4": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				}
+			}
+		}
+	},
+	"Gebäudemangel": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "Gebäudemängel",
+					"image": "188379.png",
+					"label": "Gebäudemangel",
+					"link": "ticketübersicht&filter=1",
+					"leadingItem": "false",
+					"menu": "ticketübersicht",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
+	"Elektrik": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "Elektrik",
+					"image": "18405.png",
+					"label": "Elektrik",
+					"link": "ticketübersicht&filter=2",
+					"leadingItem": "false",
+					"menu": "ticketübersicht",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
+	"Vorlesungsraum": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "Vorlesungsraum",
+					"image": "room.png",
+					"label": "Vorlesungsraum",
+					"link": "ticketübersicht&filter=3",
+					"leadingItem": "false",
+					"menu": "ticketübersicht",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
+	"Event": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "Event",
+					"image": "48732.png",
+					"label": "Event",
+					"link": "ticketübersicht&filter=4",
+					"leadingItem": "false",
+					"menu": "ticketübersicht",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
 	"GruppeT": {
 		"dashboardElement": {
 			"group": {
