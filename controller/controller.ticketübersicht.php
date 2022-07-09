@@ -2,10 +2,8 @@
 
 Core::setView("ticketübersicht", "view1", "list");
 
-$Ticketliste=Ticket::findAll();
-
-$kategorie= filter_input(INPUT_GET, "filter");
-switch($kategorie){
+$Kategorie= filter_input(INPUT_GET,"filter");
+switch($Kategorie){
     case "1":
         $Ticketliste=Ticket::findAll(Ticket::SQL_SELECT_GEBÄUDEMANGEL);
         break;
