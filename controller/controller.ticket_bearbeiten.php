@@ -2,6 +2,8 @@
 $taskType = "edit";
 $classSettings = Ticket::$settings;
 Core::$title="Bearbeiten: Ticket";
+Ticket::$SQLrestrict=false;
+//Ticket::$SQLautojoin=false;
 
 $Status = StatusT::findAll();
 Core::publish($Status, 'Status');
@@ -24,6 +26,8 @@ if(count($_POST)>0){
     $Ticket->loadDBData($id);
     $Ticket->loadFormData();
     $Ticket->update();
+    Core::redirect("home", ["message"=>"Ticket erfolgreich geändert!"]);
+
 
 }else{ // Von Liste
 Core::setView("ticket_bearbeiten", "view1", "edit");

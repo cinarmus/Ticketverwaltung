@@ -16,13 +16,13 @@
 			"param": ""
 		},
 		"G2": {
-			"data": "expression",
+			"data": "all",
 			"restriction": "",
 			"join": "",
 			"param": ""
 		},
 		"G3": {
-			"data": "expression",
+			"data": "all",
 			"restriction": "",
 			"join": "",
 			"param": ""

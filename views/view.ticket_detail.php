@@ -28,6 +28,8 @@ $klasse->render("Priorität");
 //$klasse->render("Anhang");
 $klasse->renderLabel("Bemerkung");
 $klasse->render("Bemerkung");
+$klasse->renderLabel("datum");
+$klasse->render("datum");
 $klasse->renderLabel("_TBMitarbeiter");
 $klasse->render("_TBMitarbeiter");
 $klasse->renderLabel("_TBKoordinator");

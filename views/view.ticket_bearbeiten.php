@@ -27,6 +27,8 @@ $Ticket->renderLabel("Anhang");
 $Ticket->render("Anhang");
 $Ticket->renderLabel("Bemerkung");
 $Ticket->render("Bemerkung");
+$Ticket->renderLabel("datum");
+$Ticket->render("datum");
 $Ticket->renderLabel("_TBMitarbeiter");
 $Ticket->render("_TBMitarbeiter");
 $Ticket->renderLabel("_TBKoordinator");

@@ -1,6 +1,7 @@
 <?php
 
 Core::$title="Ablehnen: Ticket";
+Ticket::$SQLrestrict=false;
 
 $Status = StatusT::findAll();
 Core::publish($Status, 'Status');
@@ -15,14 +16,15 @@ Core::publish($_TBMitarbeiter, "_TBMitarbeiter");
 
 if(count($_POST)>0){
     $id= filter_input(INPUT_GET, "id");
-    $Status=filter_input(INPUT_GET,"Status"); 
+  //  $Status=filter_input(INPUT_GET,"Status"); 
     $Ticket=new Ticket(); 
     $Ticket->loadDBData($id);
     $Ticket->loadFormData();
+    $Ticket->Status=5;
     $Ticket->update();
-    $setStatus=5;
-    
+    Core::redirect("ticketliste&filter=5", ["message"=>"Ticket erfolgreich abgelehnt!"]);
 
+    
 }else{ 
 
 Core::setView("ticket_ablehnen", "view1", "detail");

@@ -1,6 +1,7 @@
 <?php
 
 Core::$title="Vermerken: Ticket";
+Ticket::$SQLrestrict=false;
 
 $Status = StatusT::findAll();
 Core::publish($Status, 'Status');
@@ -16,12 +17,14 @@ Core::publish($_TBMitarbeiter, "_TBMitarbeiter");
 
 if(count($_POST)>0){ 
     $id= filter_input(INPUT_GET, "id");
-    $Status=filter_input(INPUT_GET,"status"); 
     $Ticket=new Ticket(); 
     $Ticket->loadDBData($id);
     $Ticket->loadFormData();
+    $Ticket->Status=4;
     $Ticket->update();
-    $setStatus=4;
+   // 
+    Core::redirect("ticketliste&filter=4", ["message"=>"Ticket erfolgreich vermerkt!"]);
+
 
 
 }else{

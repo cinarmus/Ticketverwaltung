@@ -40,3 +40,16 @@ if(isset($menuItems)){
 ?>
 </ol>
 </div>
+
+
+<form action="?task=ticket_neu">
+    <input type="submit" value="Erstelle ein neues Ticket" />
+</form>
+<br>
+<form action="?task=dashboard&menu=ticketübersicht">
+    <input type="submit" value="Gehe zur Ticketübersicht" />
+</form>
+<br>
+<form action="?task=dashboard&menu=ticketliste">
+    <input type="submit" value="Gehe zur Ticketliste" />
+</form>

@@ -10,6 +10,7 @@ $Kategorie = KategorieT::findAll();
 Core::publish($Kategorie, 'Kategorie');
 $Priorität = PrioritätT::findAll();
 Core::publish($Priorität, 'Priorität');
+Ticket::$SQLrestrict=false;
 
 $klasse = Core::$view->Ticket; 
     

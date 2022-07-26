@@ -23,6 +23,9 @@ $ticket->renderLabel("Frist");
 $ticket->render("Frist");
 $ticket->renderLabel("Anhang");
 $ticket->render("Anhang");
+$ticket->renderLabel("_HSMitarbeiter");
+$ticket->render("_HSMitarbeiter");
+
 ?>
 <?php if(Core::$user->Gruppe >1){
     $ticket->renderLabel("Priorität");
@@ -36,6 +39,7 @@ $ticket->render("Anhang");
     $ticket->renderLabel("_TBMitarbeiter");
     $ticket->render("_TBMitarbeiter");
 } ?>
+    
 <?php
 ?>
 <br>

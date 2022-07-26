@@ -1,5 +1,7 @@
 <?php
 
+Core::$title="Erstellen: Ticket";
+
 $Kategorie=KategorieT::findAll();
 $Status=StatusT::findAll();
 $Priorität=PrioritätT::findAll();

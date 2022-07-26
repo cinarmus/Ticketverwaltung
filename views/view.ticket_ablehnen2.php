@@ -12,11 +12,12 @@ $Ticketliste = Core::$view->$Ticketliste;
 
 $Ticket->renderLabel("Bemerkung");
 $Ticket->render("Bemerkung");
+$Ticket->renderLabel("datum");
+$Ticket->render("datum");
 
 
 ?>
 <button type="submit" name="update" id="update" value="1" style="width:100%">Ticket ablehnen</button>
-<a data-ajax="false" class="ui-btn  ui-btn-icon-notext ui-corner-all" href="?task=ticket_ablehnen&id=<?=$Ticket->id?>&status=<?=$setStatus?>"></a></td>
 
 </div></form>
 <br>

@@ -12,6 +12,8 @@ $Ticketliste = Core::$view->$Ticketliste;
 
 $Ticket->renderLabel("Bemerkung");
 $Ticket->render("Bemerkung");
+$Ticket->renderLabel("datum");
+$Ticket->render("datum");
 
 
 ?>
