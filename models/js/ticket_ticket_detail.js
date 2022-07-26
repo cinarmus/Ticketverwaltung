@@ -9,8 +9,7 @@ rules: {
 		string: true
 	},
 	identifier: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	created_id: {
 		string: true
@@ -22,15 +21,13 @@ rules: {
 		string: true
 	},
 	Titel: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	datum: {
 		string: true
 	},
 	Beschreibung: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	Frist: {
 		string: true
@@ -45,44 +42,34 @@ rules: {
 		string: true
 	},
 	Bemerkung: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	_TBKoordinator: {
-		string: true,
-		required: true
+		string: true
 	},
 	_TBMitarbeiter: {
-		string: true,
-		required: true
+		string: true
 	},
 	_HSMitarbeiter: {
-		string: true,
-		required: true
+		string: true
 	},
 	Status_literal: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	Kategorie_literal: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	Priorität_literal: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	_TBKoordinator_identifier: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	_TBMitarbeiter_identifier: {
-		string: true,
-		maxlength: 50
+		string: true
 	},
 	_HSMitarbeiter_identifier: {
-		string: true,
-		maxlength: 50
+		string: true
 	}
 }
 });

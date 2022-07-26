@@ -1288,6 +1288,449 @@
 			}
 		}
 	},
+	"Ticketliste": {
+		"panelElement": {
+			"group": {
+				"general": {
+					"columns": "5",
+					"heading": "Hier können Sie gefiltert nach einem Status die dazugehörigen Tickets einsehen!",
+					"text": "Hier können Sie einen Status auswählen, um sich die gewünschten Tickets anzeigen zu lassen!",
+					"image": "Website-Frontpage-Header-02.jpg",
+					"display": "true",
+					"label": "Ticketliste",
+					"link": "ticketliste",
+					"linkFunction": "dashboard",
+					"icon": "list",
+					"renderAs": "miniButton"
+				},
+				"G0": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				},
+				"G1": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				},
+				"G2": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				},
+				"G3": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				},
+				"G4": {
+					"columns": "",
+					"heading": "",
+					"text": "",
+					"image": "",
+					"display": "true",
+					"label": "",
+					"link": "",
+					"linkFunction": "",
+					"icon": "",
+					"renderAs": "",
+					"theme": ""
+				}
+			}
+		}
+	},
+	"offene Tickets": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "offene Tickets",
+					"image": "images.png",
+					"label": "offene Tickets",
+					"link": "ticketliste&filter=1",
+					"leadingItem": "false",
+					"menu": "ticketliste",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
+	"zugeteilte Tickets": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "zugeteilte Tickets",
+					"image": "226-2267489_checked-user-male-icon-assign-user-icon-hd.png",
+					"label": "zugeteilte Tickets",
+					"link": "ticketliste&filter=2",
+					"leadingItem": "false",
+					"menu": "ticketliste",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
+	"Tickets in Bearbeitung": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "in Bearbeitung",
+					"image": "progress_bar.png",
+					"label": "in Bearbeitung",
+					"link": "ticketliste&filter=3",
+					"leadingItem": "false",
+					"menu": "ticketliste",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
+	"abgeschlossene Tickets": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "abgeschlossene Tickets",
+					"image": "Basic_Element_15-30__28586_29.jpg",
+					"label": "abgeschlossene Tickets",
+					"link": "ticketliste&filter=4",
+					"leadingItem": "false",
+					"menu": "ticketliste",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
+	"abgelehnte Tickets": {
+		"dashboardElement": {
+			"group": {
+				"general": {
+					"display": "true",
+					"description": "abgelehnte Tickets",
+					"image": "check-marks-red-cross-icon-simple-vector-illustration-140098693.jpg",
+					"label": "abgelehnte Tickets",
+					"link": "ticketliste&filter=5",
+					"leadingItem": "false",
+					"menu": "ticketliste",
+					"linkFunction": "task",
+					"class": ""
+				},
+				"G0": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G1": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G2": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G3": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				},
+				"G4": {
+					"display": "true",
+					"description": "",
+					"image": "",
+					"label": "",
+					"link": "",
+					"leadingItem": "",
+					"menu": "",
+					"linkFunction": "",
+					"class": ""
+				}
+			}
+		}
+	},
 	"GruppeT": {
 		"dashboardElement": {
 			"group": {

@@ -28,7 +28,7 @@ rules: {
 	datum: {
 		string: true
 	},
-	Beschreibung: {
+	Bemerkung: {
 		string: true,
 		maxlength: 50
 	},
@@ -44,19 +44,11 @@ rules: {
 	Anhang: {
 		string: true
 	},
-	Bemerkung: {
-		string: true,
-		maxlength: 50
-	},
 	_TBKoordinator: {
 		string: true,
 		required: true
 	},
 	_TBMitarbeiter: {
-		string: true,
-		required: true
-	},
-	_HSMitarbeiter: {
 		string: true,
 		required: true
 	},
@@ -77,10 +69,6 @@ rules: {
 		maxlength: 50
 	},
 	_TBMitarbeiter_identifier: {
-		string: true,
-		maxlength: 50
-	},
-	_HSMitarbeiter_identifier: {
 		string: true,
 		maxlength: 50
 	}

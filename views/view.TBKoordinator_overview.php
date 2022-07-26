@@ -73,6 +73,6 @@ $hover = "entfernen";
 </table>
 </div>
 <?php if($access["new"] == "true"){ ?>
-<a href="?task=TBKoordinator_new" class="ui-btn ui-btn-b ui-icon-plus ui-btn-icon-left" data-ajax="false">Neuanlegen</a><br>
+<a href="?task=TBKoordinator_new" class="ui-btn ui-btn-b ui-icon-plus ui-btn-icon-left" data-ajax="false">Neu anlegen</a><br>
 <?php } ?>
 <br>

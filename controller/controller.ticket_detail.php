@@ -1,30 +1,27 @@
 <?php
 
-$menu=KategorieT::findAll();
-Core::publish($menu, "Kategorie");
+$_TBKoordinator = TBKoordinator::findAll();
+Core::publish($_TBKoordinator, "_TBKoordinator");
+$_TBMitarbeiter = TBMitarbeiter::findAll();
+Core::publish($_TBMitarbeiter, "_TBMitarbeiter");
+$Status = StatusT::findAll();
+Core::publish($Status, 'Status');
+$Kategorie = KategorieT::findAll();
+Core::publish($Kategorie, 'Kategorie');
+$Priorität = PrioritätT::findAll();
+Core::publish($Priorität, 'Priorität');
 
-if(count($_POST)>0){
-
-$position=new Position();
-$position->loadFormData();
-$position->create();
-Core::redicrect("dashboard&menu=Ticketübersicht");
-
-} else {
+$klasse = Core::$view->Ticket; 
     
-Core::setView("ticket_neu", "view1", "detail");
-Core::setView("position", "view2", "new");
+Core::setView("ticket_detail", "view1", "detail");
 
+//$ticket->loadDBData($id);
 $id=filter_input(INPUT_GET, "id");
 $ticket=new Ticket();
 $ticket->loadDBData($id);
-$position=new Position();
-$position->_Ticket=$ticket->$id;
 
-Core::publish($ticket, "Ticket");
-Core::publish($position, "Position");   
+Core::publish($ticket, "Ticket"); 
 
-Ticket::renderScript("detail", "form_Ticket");
-Position::renderScript("new", "form_Position");
-}
+Ticket::renderScript("ticket_detail", "form_Ticket");
+
 

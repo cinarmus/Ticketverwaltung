@@ -55,10 +55,10 @@
 			}
 		}
 	},
-	"Bemerkung": {
+	"Beschreibung": {
 		"type": "string",
 		"stereotype": "primitive",
-		"label": "Bemerkung",
+		"label": "Beschreibung",
 		"renderAs": {
 			"new": {
 				"control": "textarea"
@@ -79,7 +79,59 @@
 		"type": "StatusT",
 		"stereotype": "enumeration",
 		"classAlias": "StatusT0",
-		"label": "Status"
+		"label": "Status",
+		"renderAs": {
+			"detail": {
+				"control": "text",
+				"class": "sysstring",
+				"disabled": "1",
+				"length": "50",
+				"display": true,
+				"options": {
+					"key": "id",
+					"literal": "literal",
+					"default": "Status",
+					"data": "Status"
+				}
+			},
+			"edit": {
+				"options": {
+					"key": "id",
+					"literal": "literal",
+					"default": "Status",
+					"data": "Status"
+				},
+				"control": "menu",
+				"class": "sysstring",
+				"length": "50",
+				"display": true
+			},
+			"list": {
+				"dataPriority": "2",
+				"options": {
+					"key": "id",
+					"literal": "literal",
+					"default": "status",
+					"data": "Status"
+				},
+				"control": "text",
+				"class": "sysstring",
+				"length": "50",
+				"display": true
+			},
+			"new": {
+				"control": "menu",
+				"options": {
+					"key": "id",
+					"literal": "literal",
+					"default": "offen",
+					"data": "Status"
+				},
+				"class": "sysstring",
+				"length": "50",
+				"display": false
+			}
+		}
 	},
 	"Kategorie": {
 		"type": "KategorieT",
@@ -103,6 +155,16 @@
 			}
 		}
 	},
+	"Bemerkung": {
+		"type": "string",
+		"stereotype": "primitive",
+		"label": "Bemerkung",
+		"renderAs": {
+			"new": {
+				"control": "textarea"
+			}
+		}
+	},
 	"_TBKoordinator": {
 		"type": "foreign",
 		"stereotype": "relation",
@@ -123,6 +185,21 @@
 		"stereotype": "relation",
 		"class": "TBMitarbeiter",
 		"classAlias": "TBMitarbeiter",
+		"renderAs": {
+			"edit": {
+				"required": "true"
+			},
+			"new": {
+				"required": "true"
+			}
+		},
+		"join": "INNER"
+	},
+	"_HSMitarbeiter": {
+		"type": "foreign",
+		"stereotype": "relation",
+		"class": "HSMitarbeiter",
+		"classAlias": "HSMitarbeiter",
 		"renderAs": {
 			"edit": {
 				"required": "true"

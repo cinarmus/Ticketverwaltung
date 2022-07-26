@@ -63,4 +63,9 @@ Core::setTaskMap(array(
 'ticket_neu'=>'',
 'ticketübersicht'=>'',
 'ticket_detail'=>'',
+'ticket_bearbeiten'=>'',
+'ticketliste'=>'',
+'ticket_vermerken'=>'',
+'ticket_ablehnen'=>'',
+'meine_tickets'=>'',
 ));

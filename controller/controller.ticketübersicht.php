@@ -2,6 +2,7 @@
 
 Core::setView("ticketübersicht", "view1", "list");
 
+
 $Kategorie= filter_input(INPUT_GET,"filter");
 switch($Kategorie){
     case "1":
@@ -18,4 +19,17 @@ switch($Kategorie){
         break;
 }
 
+
 Core::publish($Ticketliste, "Ticketliste");
+Core::publish($Ticket, "Ticket");
+
+$Status = StatusT::findAll();
+Core::publish($Status, 'Status');
+$Kategorie = KategorieT::findAll();
+Core::publish($Kategorie, 'Kategorie');
+$Priorität = PrioritätT::findAll();
+Core::publish($Priorität, 'Priorität');
+$_TBKoordinator = TBKoordinator::findAll();
+Core::publish($_TBKoordinator, "_TBKoordinator");
+$_TBMitarbeiter = TBMitarbeiter::findAll();
+Core::publish($_TBMitarbeiter, "_TBMitarbeiter");
